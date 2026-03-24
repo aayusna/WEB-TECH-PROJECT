@@ -32,12 +32,22 @@ A lightweight static web app that provides a login/register UI and a series reco
 ## ▶️ How to run
 
 1. Open `login.html` in your browser.
-2. Register with name/email/password (password minimum 6 characters).
-3. You will be redirected to `cat.html`.
-4. Explore categories, search, and add favorites.
-5. Refresh page to verify persistence.
+   <img width="1118" height="782" alt="Screenshot 2569-03-24 at 6 38 29 PM" src="https://github.com/user-attachments/assets/de16c1cc-c57b-43aa-80e0-6234b952b483" />
 
-## 🛠 Development notes
+2. Register with name/email/password (password minimum 6 characters).
+<img width="1118" height="806" alt="Screenshot 2569-03-24 at 7 20 24 PM" src="https://github.com/user-attachments/assets/a206e9c9-b646-4477-ad27-e8caa004d529" />
+
+3. You will be redirected to `cat.html`.
+   <img width="1118" height="806" alt="Screenshot 2569-03-24 at 6 39 06 PM" src="https://github.com/user-attachments/assets/6c5fcaec-12af-4e09-8829-c685894cbae4" />
+
+4. Explore categories, search, and add favorites.
+   <img width="1118" height="806" alt="Screenshot 2569-03-24 at 6 38 54 PM" src="https://github.com/user-attachments/assets/51d71cb0-a1be-4397-82bc-c6d64a8aabfd" />
+
+5. Refresh page to verify persistence.
+   <img width="1118" height="806" alt="Screenshot 2569-03-24 at 6 39 21 PM" src="https://github.com/user-attachments/assets/d6f3b6af-9266-407d-9e71-0c8ff717746b" />
+
+
+##  Development notes
 
 - `script.js` handles DOM events for all pages, so any added page should align with ID/class conventions.
 - `cat1.html` and `cat2.html` currently include a duplicate heart button in the first series card (fix recommended).
