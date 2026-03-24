@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register - Series Recommendation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="login-bg dark-theme">
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌓</button>
+    <main class="login-container">
+        <div class="glass-panel login-box">
+            <img src="ayu.jpeg" alt="Aayushi Logo" class="logo">
+            <h2 class="title glow-text">Welcome</h2>
+            <p class="subtitle">Please Login or Register to continue</p>
+
+            <div id="loginForm" class="auth-form">
+                <input id="username" type="text" class="input-field" placeholder="Username">
+                <input id="password" type="password" class="input-field" placeholder="Password">
+                <span id="loginError" class="error-text"></span>
+                <button class="primary-btn login-btn" onclick="login()">Login</button>
+                <p class="register-text">
+                    Don’t have an account? 
+                    <a href="javascript:void(0)" onclick="showRegister()">Register here</a>
+                </p>
+            </div>
+
+            <hr class="gold-line">
+
+            <div id="registerForm" class="auth-form hidden">
+                <input id="regname" type="text" class="input-field" placeholder="Full Name">
+                <input id="regemail" type="email" class="input-field" placeholder="Email">
+                <input id="regpass" type="password" class="input-field" placeholder="Password">
+                <div class="show-password-container">
+                    <input type="checkbox" id="showRegPass" onchange="toggleRegPassword()">
+                    <label for="showRegPass">Show Password</label>
+                </div>
+                <span id="regError" class="error-text"></span>
+                <button class="primary-btn register-btn" onclick="register()">Create Account</button>
+                <p class="register-text">
+                    Already have an account? 
+                    <a href="javascript:void(0)" onclick="showLogin()">Login here</a>
+                </p>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <p>© 2025 Series Recommendation | Designed by Aayushi</p>
+        </footer>
+    </main>
+</body>
+</html>
