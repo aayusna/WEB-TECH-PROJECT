@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category 1 – Action & Thriller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="category-bg dark-theme">
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌓</button>
+    <button class="top-back-btn" onclick="window.location.href='cat.html'">⬅ Back</button>
+    <header class="category-header">
+        <h1 class="glow-text">Category 1: Action & Thriller</h1>
+        <p class="subtitle">Here are some top picks for you!</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" onkeyup="searchSeries()" placeholder="Search for a series..." class="search-box input-field">
+    </div>
+
+    <main class="series-container">
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="s.t.jpeg" alt="Stranger Things" class="series-img">
+            <div class="series-info">
+                <h2>1. Stranger Things</h2>
+                <p>⭐ Rating: 8.7/10</p>
+                <p>⏱️ Duration: 4 Seasons</p>
+                <p>📖 A thrilling sci-fi series where kids face supernatural events in their town.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="mh.jpeg" alt="Money Heist" class="series-img">
+            <div class="series-info">
+                <h2>2. Money Heist</h2>
+                <p>⭐ Rating: 8.2/10</p>
+                <p>⏱️ Duration: 5 Parts</p>
+                <p>📖 A group of robbers led by “The Professor” plans the biggest heist in history.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="bb.jpeg" alt="Breaking Bad" class="series-img">
+            <div class="series-info">
+                <h2>3. Breaking Bad</h2>
+                <p>⭐ Rating: 9.5/10</p>
+                <p>⏱️ Duration: 5 Seasons</p>
+                <p>📖 A chemistry teacher turns into a drug producer to secure his family's future.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="tw.jpeg" alt="The Witcher" class="series-img">
+            <div class="series-info">
+                <h2>4. The Witcher</h2>
+                <p>⭐ Rating: 8.0/10</p>
+                <p>⏱️ Duration: 3 Seasons</p>
+                <p>📖 A monster hunter faces destiny and magic in a medieval world.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="ncs.jpeg" alt="Narcos" class="series-img">
+            <div class="series-info">
+                <h2>5. Narcos</h2>
+                <p>⭐ Rating: 8.8/10</p>
+                <p>⏱️ Duration: 3 Seasons</p>
+                <p>📖 True‑life story of drug cartels and the law enforcement fighting them.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="jr.jpeg" alt="Jack Ryan" class="series-img">
+            <div class="series-info">
+                <h2>6. Jack Ryan</h2>
+                <p>⭐ Rating: 8.1/10</p>
+                <p>⏱️ Duration: 3 Seasons</p>
+                <p>📖 CIA analyst Jack Ryan finds himself in dangerous field missions.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="pb.jpeg" alt="Peaky Blinders" class="series-img">
+            <div class="series-info">
+                <h2>7. Peaky Blinders</h2>
+                <p>⭐ Rating: 8.8/10</p>
+                <p>⏱️ Duration: 6 Seasons</p>
+                <p>📖 A gangster family rises in 1900s Birmingham, England.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="tb.jpeg" alt="The Boys" class="series-img">
+            <div class="series-info">
+                <h2>8. The Boys</h2>
+                <p>⭐ Rating: 8.7/10</p>
+                <p>⏱️ Duration: 3 Seasons</p>
+                <p>📖 A gritty take on superheroes and corruption.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

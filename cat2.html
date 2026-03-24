@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category 2 – Drama & Fantasy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="category-bg dark-theme">
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌓</button>
+    <button class="top-back-btn" onclick="window.location.href='cat.html'">⬅ Back</button>
+    <header class="category-header">
+        <h1 class="glow-text">Category 2: Drama & Fantasy</h1>
+        <p class="subtitle">Here are some top picks for you!</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" onkeyup="searchSeries()" placeholder="Search for a series..." class="search-box input-field">
+    </div>
+
+    <main class="series-container">
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="got.jpeg" alt="Game of Thrones" class="series-img">
+            <div class="series-info">
+                <h2>1. Game of Thrones</h2>
+                <p>⭐ Rating: 9.3/10</p>
+                <p>⏱️ Duration: 8 Seasons</p>
+                <p>📖 Noble families vie for control of the Iron Throne.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="wed.jpeg" alt="Wednesday" class="series-img">
+            <div class="series-info">
+                <h2>2. Wednesday</h2>
+                <p>⭐ Rating: 8.2/10</p>
+                <p>⏱️ Duration: 1 Season</p>
+                <p>📖 A darkly comedic coming‑of‑age story featuring Wednesday Addams.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="dark.jpeg" alt="Dark" class="series-img">
+            <div class="series-info">
+                <h2>3. Dark</h2>
+                <p>⭐ Rating: 8.8/10</p>
+                <p>⏱️ Duration: 3 Seasons</p>
+                <p>📖 A mind‑bending story of time travel, family secrets, and destiny.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="l.jpeg" alt="Lucifer" class="series-img">
+            <div class="series-info">
+                <h2>4. Lucifer</h2>
+                <p>⭐ Rating: 8.2/10</p>
+                <p>⏱️ Duration: 6 Seasons</p>
+                <p>📖 The Devil helps solve crimes while exploring humanity.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="hod.jpeg" alt="House of the Dragon" class="series-img">
+            <div class="series-info">
+                <h2>5. House of the Dragon</h2>
+                <p>⭐ Rating: 8.4/10</p>
+                <p>⏱️ Duration: 1 Season</p>
+                <p>📖 A Targaryen civil war tears Westeros apart.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="ts.jpeg" alt="The Sandman" class="series-img">
+            <div class="series-info">
+                <h2>6. The Sandman</h2>
+                <p>⭐ Rating: 7.9/10</p>
+                <p>⏱️ Duration: 1 Season</p>
+                <p>📖 A dark fantasy about Dream and the Endless.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="v.jpeg" alt="Vikings" class="series-img">
+            <div class="series-info">
+                <h2>7. Vikings</h2>
+                <p>⭐ Rating: 8.6/10</p>
+                <p>⏱️ Duration: 6 Seasons</p>
+                <p>📖 The sagas of Viking Ragnar Lothbrok and his descendants.</p>
+            </div>
+        </div>
+
+        <div class="series-card glass-panel hover-glow">
+            <button class="fav-btn" onclick="toggleFavorite(this)" title="Add to Favorites">&hearts;</button>
+            <img src="sb.jpeg" alt="Shadow and Bone" class="series-img">
+            <div class="series-info">
+                <h2>8. Shadow and Bone</h2>
+                <p>⭐ Rating: 7.6/10</p>
+                <p>⏱️ Duration: 2 Seasons</p>
+                <p>📖 A young soldier discovers a power that could unite her world.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
